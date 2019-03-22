@@ -1,1 +1,0 @@
-<?php header('Location: /Mockup_Aktion/index.html' );?>
