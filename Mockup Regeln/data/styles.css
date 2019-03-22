@@ -56,8 +56,15 @@
 .paragraph {
   text-align:left;
 }
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 .list_box {
   color:#000000;
+  text-align:left;
+}
+.checkbox {
   text-align:left;
 }
 .sticky_1 {
