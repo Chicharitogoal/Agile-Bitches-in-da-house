@@ -53,7 +53,6 @@
   font-size:10px;
   text-align:left;
 }
-<<<<<<< HEAD
 .label {
   font-size:14px;
   text-align:left;
@@ -70,15 +69,5 @@
   text-align:left;
 }
 .checkbox {
-=======
-.paragraph {
-  text-align:left;
-}
-.list_box {
-  color:#000000;
-  text-align:left;
-}
-.sticky_1 {
->>>>>>> 73d4fa06c917c5345dc4c08fe488b06b0670edc0
   text-align:left;
 }
