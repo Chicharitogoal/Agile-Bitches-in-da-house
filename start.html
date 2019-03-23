@@ -32,12 +32,53 @@ a:hover, a:active {
   background-color: red;
 }
     
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+    font-size: 50pt;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */    
+    
 </style>
 </head>
 <body>
 <h1>Smartcleaning - in da house</h1>
     
-<H1> ATTENTION: BETA Environment</H1>    
+<H1 class="blink"> ATTENTION: BETA Environment</H1>    
 <h2><a href="/Mockup_Aktion/index.html">Aktion </a> </h2>
 <br>
 <h2><a href="/Mockup Regeln/index.html">Regeln </a> </h2>
